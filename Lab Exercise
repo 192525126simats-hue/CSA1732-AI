@@ -1,4 +1,4 @@
-"""def add(x,y):
+1)"""def add(x,y):
     return x+y
 def subtract(x,y):
     return x-y
@@ -23,7 +23,7 @@ elif choice=='4':
     print(num1,"/",num2,"=",divide(num1,num2))
 else:
     print("Invalid input")"""
-"""Matrix1=[[1,2,3],
+2)"""Matrix1=[[1,2,3],
          [4,5,6],
          [7,8,9]]
 Matrix2=[[10,11,12],
@@ -37,7 +37,7 @@ for i in range(len(Matrix1)):
         result[i][j]=Matrix1[i][j]+Matrix2[i][j]
 for row in result:
             print (row)"""
-"""matrix = [[1, 2, 3],
+3)"""matrix = [[1, 2, 3],
           [4, 5, 6],
           [7, 8, 9]]
 
@@ -57,11 +57,11 @@ for row in matrix:
 print("Transposed Matrix:")
 for row in transpose_matrix:
     print(row)"""
-"""sentence=input("Enter a sentence:")
+4)"""sentence=input("Enter a sentence:")
 words=sorted(sentence.split())
 sorted_sentence=" ".join(words)
 print("Sorted sentence:",sorted_sentence)"""
-"""nested_list = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+5)"""nested_list = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
 print("Nested List:", nested_list)
 
 my_list = [1, 2, 3, 4, 5]
@@ -78,7 +78,7 @@ if 3 in my_list:
     print("3 is in the list")
 else:
     print("3 is not in the list")"""
-my_list = []
+6)"""my_list = []
 
 my_list.append(1)
 print("List after adding an item using append method:", my_list)
@@ -86,7 +86,7 @@ print("List after adding an item using append method:", my_list)
 my_list.append(2)
 print("List after appending an item using append method:", my_list)
 
-my_list.extend([3, 4, 5])
+my_list.extend([3, 4, 5])"""
 print("List after extending using extend method:", my_list)
 
 my_list.remove(3)
